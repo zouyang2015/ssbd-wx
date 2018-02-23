@@ -1,0 +1,46 @@
+/**index.wxss**/
+.section {
+  margin: 0 10px;
+}
+.product-item {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px solid #c8c7cc;
+  margin-bottom: 5px;
+}
+.icon {
+  flex: 0 0 60px;
+  width: 60px;
+  padding-right: 20px;
+}
+.icon .img {
+  width: 60px;
+  height: 45px;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  line-height: 20px;
+  overflow: hidden;
+  font-size: 12px;
+}
+.text .name {
+  display: flex;
+  color: #333333;
+  font-size: 16px;
+  padding: 0 5px 0 0;
+  font-weight: normal;
+  margin: 0 0 5px 0;
+}
+.text .desc {
+  flex: 0 1 auto;
+  color: #9a9a9a;
+  font-size: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

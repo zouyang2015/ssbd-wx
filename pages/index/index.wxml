@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<view class="section">
+  <scroll-view scroll-y>
+    <view bind:tap="detail" data-item="{{item}}" wx:for="{{listAry}}" wx:key="{{item.prodkey}}" class="product-item">
+     <view class="icon">
+      <image src="../image/default.jpg" class="img"></image>
+     </view>
+     <view class='text'>
+      <text class="name">{{item.prodname}}</text>
+      <text class='desc'>{{item.prodtags}}</text>
+     </view>
+    </view>
+  </scroll-view>
+</view>
