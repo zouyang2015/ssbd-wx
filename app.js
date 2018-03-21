@@ -35,5 +35,7 @@ App({
   },
   globalData: {
     userInfo: null
-  }
+  },
+  // 接口总url
+  getUrl: 'https://app.ibaodian.com/webh5.shtml'
 })

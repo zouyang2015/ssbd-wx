@@ -1,2 +1,22 @@
 <!--pages/detail/detail.wxml-->
+<view class='detail'>
+  <view class='detail-navi'>
+    <view class='page-list profit'><text class='profit-text'>保险利益</text></view>
+    <view class='page-list clause'><text class='clause-text'>条款全文</text></view>
+    <view class='page-list rule'><text class='rule-text'>投保规则</text></view>
+  </view>
+
+  <view class="form-wrapper">
+    <view class="h2-title">被保人信息</view>
+    <view class="list sex">
+      <view class="h3-title">性别</view>
+      <!--<radio-group class="radio-group" bindchange="radioChange">-->
+        <!--<label class="radio" wx:for="{{items}}">-->
+          <!--<radio value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}-->
+        <!--</label>-->
+      <!--</radio-group>-->
+    </view>
+  </view>
+</view>
+
 <text>pages/detail/detail.wxml</text>
